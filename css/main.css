@@ -12,6 +12,13 @@ h1 {
   font-weight: var(--font-bold);
 }
 
+.container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
 .card-product-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

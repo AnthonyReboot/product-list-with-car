@@ -19,7 +19,36 @@
   </head>
   <body>
     <h1>Dessert</h1>
-    <div id="card-product-container" class="card-product-wrapper"></div>
-    <div class="modal"></div>
+    <div class="container-main">
+      <div id="card-product-container" class="card-product-wrapper"></div>
+      <div class="cart-container">
+        <h2>Your Cart (<span>0</span>)</h2>
+        <div class="empty-cart">
+          <img src="./assets/images/illustration-empty-cart.svg" alt="" />
+          <p>Your added items will appear here</p>
+        </div>
+        <div class="cart-whit-products">
+          <div class="product-info-preview">
+            <h4>Classic Tiramisu</h4>
+            <span>1x</span>
+            <p>@ $5.50</p>
+            <span>$5.50</span>
+            <button>
+              <img src="./assets/images/icon-remove-item.svg" alt="" />
+            </button>
+          </div>
+          <div class="order-total">
+            <p>Order total</p>
+            <span>$0.00</span>
+          </div>
+          <div class="message-cart-product">
+            <img src="./assets/images/icon-carbon-neutral.svg" alt="" />
+            <p>This is a <span>carbon-neutral </span>delivery</p>
+          </div>
+          <button>Confirm Order</button>
+        </div>
+      </div>
+      <div class="modal"></div>
+    </div>
   </body>
 </html>
